@@ -1,5 +1,46 @@
+
+
 #profilepic {
 
-  height: 300px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  /*width: 50%;*/
+}
 
+#first_paragraph {
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 25px;
+}
+
+
+#second_paragraph {
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 50px;
+}
+
+.projectpic {
+  height: 175px;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#projectpics {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #009933;
+  /*background-image: url(http://pitchfork-cdn.s3.amazonaws.com/blog/859/543ee868.jpg);*/
 }
