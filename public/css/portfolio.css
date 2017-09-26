@@ -2,7 +2,7 @@
 
 #profilepic {
 
-  height: 500px;
+  height: 300px;
   display: flex;
   margin: 0 auto;
   border-radius: 50%;
@@ -11,16 +11,27 @@
 
 #first_paragraph {
   margin: 0 auto;
-  width: 50%;
-  font-family: 'Sedgwick Ave Display', cursive;
-  font-size: 25px;
+  width: 900px;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-size: 50px;
 }
 
+#first_paragraph p,
+#first_paragraph a{
+  font-size: 24px;
+}
+
+#first_paragraph .quote{
+  background-color: #dadada;
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
 #second_paragraph {
   margin: 0 auto;
-  width: 50%;
-  font-family: 'Sedgwick Ave Display', cursive;
+  width: 900px;
+  font-family: 'Encode Sans Expanded', sans-serif;
   font-size: 50px;
 }
 
@@ -34,13 +45,53 @@
   justify-content: space-between;
 }
 
-#projectpics {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
+#socials .fa {
+  color: #009933;
+}
+
+#greenpool #vid-container{
+  width: 354px;
+  overflow:hidden;
+  display:block;
+  height: 720px;
+  float: left;
+}
+
+#greenpool #vid-container video{
+  margin-left: -464px;
+  margin-top: -3px;
+}
+
+#greenpool .description{
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+}
+
+#greenpool .description p{
+  font-size: 1rem;
 }
 
 body {
-  background-color: #009933;
+  background-color: white;
   /*background-image: url(http://pitchfork-cdn.s3.amazonaws.com/blog/859/543ee868.jpg);*/
+}
+
+.clearfix{
+  clear: both;
+}
+
+
+.btn{
+  font-size: 1.2rem;
+  background: #009933;
+  color: #fff;
+  padding: 5px 9px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.btn:hover{
+  border: 1px solid #333;
 }
